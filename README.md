@@ -51,3 +51,10 @@ python dinomaly_mvtec_sep.py --data_path ../mvtec_anomaly_detection
 
 Training Unstability: The optimization can be unstable with loss spikes (e.g. ...0.05, 0.04, 0.04, **0.32**, **0.23**, 0.08...)
 , which can be harmful to performance. This occurs very very rare. If you see such loss spikes during training, consider change a random seed.
+
+## 4. Evaluation for VAND2.0
+```
+python
+python evaluation.py --module_path ensemble --class_name EnsembleModel --weights_path weights/ --dataset_path ../../datasets/MVTec --category bottle
+```
+Change the directory to vand2.0_submissions and run this command with correct datset path
