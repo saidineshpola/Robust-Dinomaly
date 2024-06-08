@@ -4,7 +4,7 @@ This is a PyTorch implementation of "Dinomaly: The Less Is More Philosophy in Mu
 
 In this version, we have made few changes to the model architecture and replaced the original loss function with CosineFocal Loss and added more augmentation for color jitter, brightness, gaussian noice and add. 
 
-Please note that the code is fork of its preview version of original DinomalyRepo[https://github.com/guojiajeremy/Dinomaly]
+Please note that the code is fork of its preview version of original [DinomalyRepo](https://github.com/guojiajeremy/Dinomaly])
 
 ## 1. Environments
 
@@ -15,7 +15,7 @@ conda create -n my_env python=3.8.12
 conda activate my_env
 pip install -r requirements.txt
 ```
-Experiments are conducted on NVIDIA GeForce RTX 3090 (24GB). Same GPU and package version are recommended. 
+Experiments are conducted on NVIDIA GeForce RTX 3070 (8GB). Same GPU and package version are recommended. 
 
 ## 2. Prepare Datasets
 Noted that `../` is the upper directory of Dinomaly code. It is where we keep all the datasets by default.
