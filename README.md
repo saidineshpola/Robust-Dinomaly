@@ -56,4 +56,4 @@ Training Unstability: The optimization can be unstable with loss spikes (e.g. ..
 ```
 python evaluation.py --module_path ensemble --class_name EnsembleModel --weights_path weights/ --dataset_path ../../datasets/MVTec --category bottle
 ```
-Change the directory to vand2.0_submissions and run this command with correct datset path
+Change the directory to vand2.0_submissions and run this command with correct dataset path
