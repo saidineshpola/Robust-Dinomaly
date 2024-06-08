@@ -99,4 +99,4 @@ You can also run all the categories by using
 ```
 bash eval.sh
 ```
-Change the directory to vand2.0_submissions and run this command with correct dataset path
+Change the directory to vand2.0_submissions and run thses commands ny setting correct dataset path 
