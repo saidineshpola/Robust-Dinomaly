@@ -14,7 +14,7 @@ Here is the information presented as a table in Markdown for your GitHub README,
 
 ---
 
-**MvTec Dataset F1 Scores on Strong Augmentations**
+**MvTec Dataset F1 Scores on Strong Augmentation Setup**
 
 | Category     | Image F1 Max Score | Pixel F1 Max Score |
 |--------------|---------------------|--------------------|
