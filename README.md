@@ -1,11 +1,12 @@
 # Dinomaly
 
-This is a PyTorch implementation of "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection". 
+the code is fork of its preview version of original [DinomalyRepo](https://github.com/guojiajeremy/Dinomaly). 
+<br>
 Note: 
 1. My Implementation of this paper using [ADER](https://github.com/zhangzjn/ader) resulted in 62.xx (-2) less F1 score So I used their official repo for VAND2.0 MvTec AD submission. 
-In this version, we have made few changes to the model architecture and replaced the original loss function with CosineFocal Loss and added more augmentation for color jitter, brightness, gaussian noice and add. 
+In this version, we have made few changes to the model architecture and number of layers and replaced the original loss function with CosineFocal Loss and added more augmentation for color jitter, brightness, gaussian noice and random rotation. I will update the documentation soon.
 
-Please note that the code is fork of its preview version of original [DinomalyRepo](https://github.com/guojiajeremy/Dinomaly)
+
 
 ## 1. Environments
 
