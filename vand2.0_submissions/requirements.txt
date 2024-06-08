@@ -1,0 +1,36 @@
+# This file is used to specify the dependencies of the package.
+# In this example, we are using the package `anomalib` as a dependency.
+# You could add more dependencies by adding more lines to this file.
+anomalib[full]==1.0.1
+# timm==0.8.15dev0
+# mmselfsup
+# pandas
+transformers
+# openpyxl
+imgaug
+# numba
+# numpy
+# tensorboard
+# fvcore
+# Ninja
+# torch
+# torchvision
+matplotlib
+numpy
+opencv_python_headless
+pandas
+Pillow
+scikit_image
+scikit_learn
+scipy
+tabulate
+torch
+torchvision
+tqdm
+ptflops
+timm
+fvcore
+Ninja
+tensorboardX
+einops
+numba
