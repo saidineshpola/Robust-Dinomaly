@@ -4,7 +4,7 @@ This is a PyTorch implementation of "Dinomaly: The Less Is More Philosophy in Mu
 
 In this version, we have made few changes to the model architecture and replaced the original loss function with CosineFocal Loss and added more augmentation for color jitter, brightness, gaussian noice and add. 
 
-Please note that the code is fork of its preview version of original [DinomalyRepo](https://github.com/guojiajeremy/Dinomaly])
+Please note that the code is fork of its preview version of original [DinomalyRepo](https://github.com/guojiajeremy/Dinomaly)
 
 ## 1. Environments
 
