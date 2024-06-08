@@ -1,4 +1,4 @@
-# Dinomaly
+# Robust-Dinomaly 
 
 the code is fork of its preview version of original [DinomalyRepo](https://github.com/guojiajeremy/Dinomaly). 
  <br>
