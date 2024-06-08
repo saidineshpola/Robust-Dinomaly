@@ -7,6 +7,41 @@ In this version, we have made few changes to the model architecture and number o
 Note: 
 1. My Implementation of this paper using  [Ader](https://github.com/zhangzjn/ader) resulted in 62.xx (-2) less Pixel F1 score So I used their official repo for VAND2.0 MvTec AD submission on the last day of VAND2.0.
 
+# Results
+
+Here is the information presented as a table in Markdown for your GitHub README, along with the calculated averages:
+
+---
+
+**MvTec Dataset F1 Scores on Strong Augmentations**
+
+| Category     | Image F1 Max Score | Pixel F1 Max Score |
+|--------------|---------------------|--------------------|
+| Carpet       | 0.9560              | 0.6144             |
+| Grid         | 0.9636              | 0.3670             |
+| Leather      | 1.0000              | 0.5062             |
+| Tile         | 1.0000              | 0.7447             |
+| Wood         | 0.9831              | 0.5501             |
+| Bottle       | 1.0000              | 0.7626             |
+| Cable        | 0.9405              | 0.5938             |
+| Capsule      | 0.9279              | 0.4322             |
+| Hazelnut     | 1.0000              | 0.7344             |
+| Metal Nut    | 1.0000              | 0.7838             |
+| Pill         | 0.9648              | 0.7577             |
+| Screw        | 0.8551              | 0.3044             |
+| Toothbrush   | 0.9677              | 0.5796             |
+| Transistor   | 0.8706              | 0.4397             |
+| Zipper       | 0.9367              | 0.3692             |
+| Avg          | 0.9577              | 0.5693            |
+
+**Average Scores**
+
+- Average Image F1 Max Score: 0.9577
+- Average Pixel F1 Max Score: 0.5693
+
+---
+
+This format should be suitable for inclusion in your GitHub README.
 
 
 ## 1. Environments
