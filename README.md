@@ -2,7 +2,7 @@
 
 the code is fork of its preview version of original [DinomalyRepo](https://github.com/guojiajeremy/Dinomaly). 
  <br>
-In this version, we have made few changes to the model architecture and number of layers and replaced the original loss function with CosineFocal Loss and added more augmentation for color jitter, brightness, gaussian noice, random flip and random rotation. I will update the documentation soon with appropriate images.
+In this version, we have made few changes to the model architecture  and removed some extra layers to reduce training time. The number of fusion layers reduced from 8 to 6 while keeping linear attention as it is and replaced the original loss function with CosineFocal Loss and added more augmentation for color jitter, brightness, gaussian noice, random flip and random rotation. I will update the documentation soon with appropriate images.
 <br>
 <br>
 Note: 
